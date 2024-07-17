@@ -1,0 +1,40 @@
+.calc-calorie{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    height: 60vh;
+    position: relative;
+}
+.form{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+.form div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.form div label{
+    font: 32px ;
+}
+.form div input{
+    border-color: var(--Gcolor);
+    border-width:2px;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: #fff;
+    
+}
+.form div select{
+    border-color: var(--Gcolor);
+    border-width:2px;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: #fff;
+}
+.form div select option:checked {
+    background-color:var(--Gcolor) ;
+}
